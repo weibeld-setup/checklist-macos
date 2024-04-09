@@ -35,15 +35,15 @@ Checklist for setting a and personalising a new macOS installation.
 - [ ] [19. Install Homebrew](#19-install-homebrew)
 - [ ] [20. Install Homebrew formulas from Brewfile](#20-install-homebrew-formulas-from-brewfile)
 - [ ] [21. Set Bash as the default shell](#21-set-bash-as-the-default-shell)
-- [ ] [22. Install dotfiles](#22-install-dotfiles)
-- [ ] [23. TODO: Install sudoers file](#23-todo-install-sudoers-file)
-- [ ] [24. Apply iTerm2 settings](#24-apply-iterm2-settings)
-- [ ] [25. Apply settings of optional tools](#25-apply-settings-of-optional-tools)
-- [ ] [26. Set up Google Chrome](#26-set-up-google-chrome)
-- [ ] [27. Set up Google Drive](#27-set-up-google-drive)
-- [ ] [28. Set up Fluor](#28-set-up-fluor)
-- [ ] [29. Install eduroam](#29-install-eduroam)
-- [ ] [30. Install fonts](#30-install-fonts)
+- [ ] [22. Apply iTerm2 settings](#22-apply-iterm2-settings)
+- [ ] [23. Apply settings of optional tools](#23-apply-settings-of-optional-tools)
+- [ ] [24. Install dotfiles](#24-install-dotfiles)
+- [ ] [25. TODO: Install sudoers file](#25-todo-install-sudoers-file)
+- [ ] [26. Install fonts](#26-install-fonts)
+- [ ] [27. Install eduroam](#27-install-eduroam)
+- [ ] [28. Configure Google Chrome](#28-configure-google-chrome)
+- [ ] [29. Configure Google Drive](#29-configure-google-drive)
+- [ ] [30. Configure Fluor](#30-configure-fluor)
 
 <!-- vim-markdown-toc -->
 
@@ -370,25 +370,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 [↑ Top](#contents)
 
-## 22. Install dotfiles
-
-![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
-
-✅ [**weibeld-setup/install-dotfiles**](https://github.com/weibeld-setup/install-dotfiles)
-
-[↑ Top](#contents)
-
-## 23. TODO: Install sudoers file
-
-![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
-
-✅ [**weibeld-setup/install-sudoers**](https://github.com/weibeld-setup/install-sudoers)
-
-> **TODO:** adapt for macOS.
-
-[↑ Top](#contents)
-
-## 24. Apply iTerm2 settings
+## 22. Apply iTerm2 settings
 
 ![GitHub Repo: Settings](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-settings.svg)
 
@@ -396,7 +378,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 [↑ Top](#contents)
 
-## 25. Apply settings of optional tools
+## 23. Apply settings of optional tools
 
 ### Android Studio
 
@@ -410,7 +392,41 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ✅ [**weibeld-setup/settings-vscode**](https://github.com/weibeld-setup/settings-vscode)
 
-## 26. Configure Google Chrome
+## 24. Install dotfiles
+
+![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
+
+✅ [**weibeld-setup/install-dotfiles**](https://github.com/weibeld-setup/install-dotfiles)
+
+[↑ Top](#contents)
+
+## 25. TODO: Install sudoers file
+
+![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
+
+✅ [**weibeld-setup/install-sudoers**](https://github.com/weibeld-setup/install-sudoers)
+
+> **TODO:** adapt for macOS.
+
+[↑ Top](#contents)
+
+## 26. Install fonts
+
+![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
+
+✅ [**weibeld-setup/install-fonts**](https://github.com/weibeld-setup/install-fonts)
+
+[↑ Top](#contents)
+
+## 27. Install eduroam
+
+![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
+
+✅ [**weibeld-setup/install-eduroam**](https://github.com/weibeld-setup/install-eduroam)
+
+[↑ Top](#contents)
+
+## 28. Configure Google Chrome
 
 Set Chrome as the default web browser:
 
@@ -425,7 +441,7 @@ Set dowload directory:
 
 [↑ Top](#contents)
 
-## 27. Configure Google Drive
+## 29. Configure Google Drive
 
 1. Launch _**Google Drive**_
 1. Skip all the options in the setup dialog
@@ -443,7 +459,7 @@ Set dowload directory:
 
 [↑ Top](#contents)
 
-## 28. Configure Fluor
+## 30. Configure Fluor
 
 Grant permissions:
 
@@ -463,21 +479,5 @@ Set trigger:
    ![Fluor trigger](res/fluor-trigger_resized.png)
 
 > **Note:** this trigger option allows changing the Fluor mode (i.e. locking and unlocking the function keys) by simply pressing the _fn_ key.
-
-[↑ Top](#contents)
-
-## 29. Install eduroam
-
-![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
-
-✅ [**weibeld-setup/install-eduroam**](https://github.com/weibeld-setup/install-eduroam)
-
-[↑ Top](#contents)
-
-## 30. Install fonts
-
-![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
-
-✅ [**weibeld-setup/install-fonts**](https://github.com/weibeld-setup/install-fonts)
 
 [↑ Top](#contents)
