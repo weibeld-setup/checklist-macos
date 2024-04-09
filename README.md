@@ -22,27 +22,28 @@ Checklist for setting a and personalising a new macOS installation.
 - [ ] [6. Disable startup sound](#6-disable-startup-sound)
 - [ ] [7. Disable power chime](#7-disable-power-chime)
 - [ ] [8. Disable floating screenshot thumbnails](#8-disable-floating-screenshot-thumbnails)
-- [ ] [9. Make Desktop icons snap to the grid](#9-make-desktop-icons-snap-to-the-grid)
-- [ ] [10. Customise menu bar](#10-customise-menu-bar)
-- [ ] [11. Customise Dock](#11-customise-dock)
-- [ ] [12. Customise Spaces](#12-customise-spaces)
-- [ ] [13. Customise Finder](#13-customise-finder)
-- [ ] [14. Customise TextEdit](#14-customise-textedit)
-- [ ] [15. Enable keyboard brightness keys (optional)](#15-enable-keyboard-brightness-keys-optional)
-- [ ] [16. Install custom keyboard layout](#16-install-custom-keyboard-layout)
-- [ ] [17. Install Xcode Command Line Tools](#17-install-xcode-command-line-tools)
-- [ ] [18. Install Homebrew](#18-install-homebrew)
-- [ ] [19. Install Homebrew formulas from Brewfile](#19-install-homebrew-formulas-from-brewfile)
-- [ ] [20. Set Bash as the default shell](#20-set-bash-as-the-default-shell)
-- [ ] [21. Install dotfiles](#21-install-dotfiles)
-- [ ] [22. TODO: Install sudoers file](#22-todo-install-sudoers-file)
-- [ ] [23. Apply iTerm2 settings](#23-apply-iterm2-settings)
-- [ ] [24. Apply settings of optional tools](#24-apply-settings-of-optional-tools)
-- [ ] [25. Set up Google Chrome](#25-set-up-google-chrome)
-- [ ] [26. Set up Google Drive](#26-set-up-google-drive)
-- [ ] [27. Set up Fluor](#27-set-up-fluor)
-- [ ] [28. Install eduroam](#28-install-eduroam)
-- [ ] [29. Install fonts](#29-install-fonts)
+- [ ] [9. Disable adaptive screen brightness](#9-disable-adaptive-screen-brightness)
+- [ ] [10. Make Desktop icons snap to the grid](#10-make-desktop-icons-snap-to-the-grid)
+- [ ] [11. Customise menu bar](#11-customise-menu-bar)
+- [ ] [12. Customise Dock](#12-customise-dock)
+- [ ] [13. Customise Spaces](#13-customise-spaces)
+- [ ] [14. Customise Finder](#14-customise-finder)
+- [ ] [15. Customise TextEdit](#15-customise-textedit)
+- [ ] [16. Enable keyboard brightness keys (optional)](#16-enable-keyboard-brightness-keys-optional)
+- [ ] [17. Install custom keyboard layout](#17-install-custom-keyboard-layout)
+- [ ] [18. Install Xcode Command Line Tools](#18-install-xcode-command-line-tools)
+- [ ] [19. Install Homebrew](#19-install-homebrew)
+- [ ] [20. Install Homebrew formulas from Brewfile](#20-install-homebrew-formulas-from-brewfile)
+- [ ] [21. Set Bash as the default shell](#21-set-bash-as-the-default-shell)
+- [ ] [22. Install dotfiles](#22-install-dotfiles)
+- [ ] [23. TODO: Install sudoers file](#23-todo-install-sudoers-file)
+- [ ] [24. Apply iTerm2 settings](#24-apply-iterm2-settings)
+- [ ] [25. Apply settings of optional tools](#25-apply-settings-of-optional-tools)
+- [ ] [26. Set up Google Chrome](#26-set-up-google-chrome)
+- [ ] [27. Set up Google Drive](#27-set-up-google-drive)
+- [ ] [28. Set up Fluor](#28-set-up-fluor)
+- [ ] [29. Install eduroam](#29-install-eduroam)
+- [ ] [30. Install fonts](#30-install-fonts)
 
 <!-- vim-markdown-toc -->
 
@@ -146,7 +147,14 @@ Enable dragging of windows with three fingers:
 
 [↑ Top](#contents)
 
-## 9. Make Desktop icons snap to the grid
+## 9. Disable adaptive screen brightness
+
+1. Go to _**System Preferences → Displays**_
+1. Disable _**Automatically adjust brightness**_
+
+[↑ Top](#contents)
+
+## 10. Make Desktop icons snap to the grid
 
 1. Right-click on the Desktop background
 1. Click on _**Show View Options**_
@@ -154,7 +162,7 @@ Enable dragging of windows with three fingers:
 
 [↑ Top](#contents)
 
-## 10. Customise menu bar
+## 11. Customise menu bar
 
 1. Go to _**System Preferences → Control Centre**_
 1. Change the below items to the following values:
@@ -169,7 +177,7 @@ Enable dragging of windows with three fingers:
 
 [↑ Top](#contents)
 
-## 11. Customise Dock
+## 12. Customise Dock
 
 1. Go to _**System Preferences → Desktop & Dock**_
 1. Enable _**Automatically hide and show the Dock**_
@@ -177,7 +185,7 @@ Enable dragging of windows with three fingers:
 
 [↑ Top](#contents)
 
-## 12. Customise Spaces 
+## 13. Customise Spaces 
 
 Disable automatic rearrangement of Spaces:
 
@@ -193,7 +201,7 @@ Create desired number of Spaces:
 
 [↑ Top](#contents)
 
-## 13. Customise Finder
+## 14. Customise Finder
 
 Customise sidebar:
 
@@ -234,7 +242,7 @@ Show Path Bar and Status Bar:
 
 [↑ Top](#contents)
 
-## 14. Customise TextEdit
+## 15. Customise TextEdit
 
 Set default window style and behaviour:
 
@@ -257,7 +265,7 @@ Disable automatic setting of filename extensions:
 
 [↑ Top](#contents)
 
-## 15. Enable keyboard brightness keys (optional)
+## 16. Enable keyboard brightness keys (optional)
 
 > **Note:** this step is only necessary if the built-in keyboard does **not** have dedicated keys for adjusting the keyboard brightness (usually bundled with the F5 and F6 keys).
 
@@ -312,7 +320,7 @@ The above [launch agent](https://developer.apple.com/library/archive/documentati
 
 [↑ Top](#contents)
 
-## 16. Install custom keyboard layout
+## 17. Install custom keyboard layout
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
@@ -320,7 +328,7 @@ The above [launch agent](https://developer.apple.com/library/archive/documentati
 
 [↑ Top](#contents)
 
-## 17. Install Xcode Command Line Tools
+## 18. Install Xcode Command Line Tools
 
 1. Execute the following to launch the installation dialog:
    ```bash
@@ -330,7 +338,7 @@ The above [launch agent](https://developer.apple.com/library/archive/documentati
 
 [↑ Top](#contents)
 
-## 18. Install Homebrew
+## 19. Install Homebrew
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -340,7 +348,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 [↑ Top](#contents)
 
-## 19. Install Homebrew formulas from Brewfile
+## 20. Install Homebrew formulas from Brewfile
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
@@ -348,7 +356,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 [↑ Top](#contents)
 
-## 20. Set Bash as the default shell
+## 21. Set Bash as the default shell
 
 1. Execute the following:
    ```bash
@@ -356,13 +364,13 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
    chsh -s "$HOMEBREW_PREFIX"/bin/bash
    sudo chsh -s "$HOMEBREW_PREFIX"/bin/bash
    ```
-1. Quit the terminal application
+1. Quit and reopen the terminal application
 
-> **Note:** the above sets the instance of Bash installed by Homebrew as the default shell, replacing Zsh as the default shell.
+> **Note:** this sets the version of Bash that has been installed by Homebrew as the default shell. By default, macOS uses Zsh as the default shell.
 
 [↑ Top](#contents)
 
-## 21. Install dotfiles
+## 22. Install dotfiles
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
@@ -370,7 +378,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 [↑ Top](#contents)
 
-## 22. TODO: Install sudoers file
+## 23. TODO: Install sudoers file
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
@@ -380,7 +388,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 [↑ Top](#contents)
 
-## 23. Apply iTerm2 settings
+## 24. Apply iTerm2 settings
 
 ![GitHub Repo: Settings](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-settings.svg)
 
@@ -388,7 +396,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 [↑ Top](#contents)
 
-## 24. Apply settings of optional tools
+## 25. Apply settings of optional tools
 
 ### Android Studio
 
@@ -402,19 +410,19 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ✅ [**weibeld-setup/settings-vscode**](https://github.com/weibeld-setup/settings-vscode)
 
-## 25. Set up Google Chrome
+## 26. Set up Google Chrome
 
 [↑ Top](#contents)
 
-## 26. Set up Google Drive
+## 27. Set up Google Drive
 
 [↑ Top](#contents)
 
-## 27. Set up Fluor
+## 28. Set up Fluor
 
 [↑ Top](#contents)
 
-## 28. Install eduroam
+## 29. Install eduroam
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
@@ -422,7 +430,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 [↑ Top](#contents)
 
-## 29. Install fonts
+## 30. Install fonts
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
