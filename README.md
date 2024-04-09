@@ -12,41 +12,41 @@ Checklist for setting a and personalising a new macOS installation.
 <!--                :let g:vmt_max_level = 2                                 -->
 <!-- 4. Save:       ToC is automatically generated on saving of file         -->
 
-<!-- vim-markdown-toc GFM -->
+<!-- <DELETE-ME>vim-markdown-toc GFM -->
 
-- [ ] [Install updates](#install-updates)
-- [ ] [Disable iCloud Drive](#disable-icloud-drive)
-- [ ] [Customise trackpad gestures](#customise-trackpad-gestures)
-- [ ] [Customise modifier keys](#customise-modifier-keys)
-- [ ] [Disable the 🌐 key](#disable-the--key)
-- [ ] [Disable startup sound](#disable-startup-sound)
-- [ ] [Disable power chime](#disable-power-chime)
-- [ ] [Disable floating screenshot thumbnails](#disable-floating-screenshot-thumbnails)
-- [ ] [Enable snap-to-grid for Desktop icons](#enable-snap-to-grid-for-desktop-icons)
-- [ ] [Customise menu bar](#customise-menu-bar)
-- [ ] [Customise Dock](#customise-dock)
-- [ ] [Customise Spaces](#customise-spaces)
-- [ ] [Customise Finder](#customise-finder)
-- [ ] [Customise TextEdit](#customise-textedit)
-- [ ] [Enable keyboard brightness adjustment keys (optional)](#enable-keyboard-brightness-adjustment-keys-optional)
-- [ ] [Install custom keyboard layout](#install-custom-keyboard-layout)
-- [ ] [Install Xcode Command Line Tools](#install-xcode-command-line-tools)
-- [ ] [Install Homebrew](#install-homebrew)
-- [ ] [Install Homebrew formulas from Brewfile](#install-homebrew-formulas-from-brewfile)
-- [ ] [Set Bash as the default shell](#set-bash-as-the-default-shell)
-- [ ] [Install dotfiles](#install-dotfiles)
-- [ ] [TODO: Install sudoers file](#todo-install-sudoers-file)
-- [ ] [Apply iTerm2 settings](#apply-iterm2-settings)
-- [ ] [Apply settings of optional tools](#apply-settings-of-optional-tools)
-- [ ] [Set up Google Drive](#set-up-google-drive)
-- [ ] [Set up Google Chrome](#set-up-google-chrome)
-- [ ] [Set up Fluor](#set-up-fluor)
-- [ ] [Install eduroam](#install-eduroam)
-- [ ] [Install fonts](#install-fonts)
+- [ ] [1. Install updates](#1-install-updates)
+- [ ] [2. Disable iCloud Drive](#2-disable-icloud-drive)
+- [ ] [3. Customise trackpad gestures](#3-customise-trackpad-gestures)
+- [ ] [4. Customise modifier keys](#4-customise-modifier-keys)
+- [ ] [5. Disable the 🌐 key](#5-disable-the--key)
+- [ ] [6. Disable startup sound](#6-disable-startup-sound)
+- [ ] [7. Disable power chime](#7-disable-power-chime)
+- [ ] [8. Disable floating screenshot thumbnails](#8-disable-floating-screenshot-thumbnails)
+- [ ] [9. Make Desktop icons snap to the grid](#9-make-desktop-icons-snap-to-the-grid)
+- [ ] [10. Customise menu bar](#10-customise-menu-bar)
+- [ ] [11. Customise Dock](#11-customise-dock)
+- [ ] [12. Customise Spaces](#12-customise-spaces)
+- [ ] [13. Customise Finder](#13-customise-finder)
+- [ ] [14. Customise TextEdit](#14-customise-textedit)
+- [ ] [15. Enable keyboard brightness keys (optional)](#15-enable-keyboard-brightness-keys-optional)
+- [ ] [16. Install custom keyboard layout](#16-install-custom-keyboard-layout)
+- [ ] [17. Install Xcode Command Line Tools](#17-install-xcode-command-line-tools)
+- [ ] [18. Install Homebrew](#18-install-homebrew)
+- [ ] [19. Install Homebrew formulas from Brewfile](#19-install-homebrew-formulas-from-brewfile)
+- [ ] [20. Set Bash as the default shell](#20-set-bash-as-the-default-shell)
+- [ ] [21. Install dotfiles](#21-install-dotfiles)
+- [ ] [22. TODO: Install sudoers file](#22-todo-install-sudoers-file)
+- [ ] [23. Apply iTerm2 settings](#23-apply-iterm2-settings)
+- [ ] [24. Apply settings of optional tools](#24-apply-settings-of-optional-tools)
+- [ ] [25. Set up Google Chrome](#25-set-up-google-chrome)
+- [ ] [26. Set up Google Drive](#26-set-up-google-drive)
+- [ ] [27. Set up Fluor](#27-set-up-fluor)
+- [ ] [28. Install eduroam](#28-install-eduroam)
+- [ ] [29. Install fonts](#29-install-fonts)
 
 <!-- vim-markdown-toc -->
 
-## Install updates
+## 1. Install updates
 
 System updates:
 
@@ -60,16 +60,16 @@ App updates:
 
 [↑ Top](#contents)
 
-## Disable iCloud Drive
+## 2. Disable iCloud Drive
 
 1. Go to _**System Settings → Apple ID → iCloud → Apps Using iCloud**_
 1. Set _**iCloud Drive**_ to _**Off**_
 
-> This prevents distracting options in file opening and saving dialogs.
+> **Note:** this prevents distracting options in file opening and saving dialogs.
 
 [↑ Top](#contents)
 
-## Customise trackpad gestures
+## 3. Customise trackpad gestures
 
 Enable tap to click:
 
@@ -77,13 +77,13 @@ Enable tap to click:
 1. Make sure that the _**Point & Click**_ tab is open
 1. Enable _**Tap to click**_
 
-Disable opening the Notification Centre when swiping left from the right edge of the trackpad with two fingers:
+Disable opening of the Notification Centre when swiping left from the right edge of the trackpad with two fingers:
 
 1. Go to _**System Preferences → Trackpad**_
 1. Open the _**More Gestures**_ tab
 1. Disable _**Notification Centre**_
 
-> **Note:** the above gesture is disabled to prevent accidential triggering when swiping between pages.
+> **Note:** disabled to prevent accidential triggering when swiping/scrolling with two fingers.
 
 Enable dragging of windows with three fingers:
 
@@ -93,35 +93,38 @@ Enable dragging of windows with three fingers:
 
 [↑ Top](#contents)
 
-## Customise modifier keys
+## 4. Customise modifier keys
 
 1. Go to _**System Preferences → Keyboard → Keyboard Shortcuts... → Modifier Keys**_
-1. Set _**Caps Lock (⇪) key**_ to _**⌃ Control**_
-1. Set _**Control (⌃) key**_ to _**⇪ Caps Lock**_
-1. Set _**Option (⌥) key**_ to _**⌘ Command**_
-1. Set _**Command (⌘) key**_ to _**⌥ Option**_
+1. Change the below items to the following values:
+   | Item                    | Value             |
+   |:------------------------|:------------------|
+   | _**Caps Lock (⇪) key**_ | _**⌃ Control**_   |
+   | _**Control (⌃) key**_   | _**⇪ Caps Lock**_ |
+   | _**Option (⌥) key**_    | _**⌘ Command**_   |
+   | _**Command (⌘) key**_   | _**⌥ Option**_    |
 
-> **Note:** the above must be set separately for every connected keyboard (e.g the built-in keyboard and an external Magic Keyboard) by selecting the appropriate keyboard in the _**Select keyboard**_ dropdown list.
+> **Note:** the above must be done for every connected keyboard (e.g the built-in keyboard and the external Magic Keyboard). Keyboards can be selected in the _**Select keyboard**_ dropdown list.
 
 [↑ Top](#contents)
 
-## Disable the 🌐 key
+## 5. Disable the 🌐 key
 
 1. Go to _**System Preferences → Keyboard**_
 1. Set _**Press 🌐 key to**_ to _**Do Nothing**_
 
-> **Note:** this makes the 🌐 key act like a normal _fn_ (function) key (e.g. for typing F1, F2, etc.). The 🌐 key functionality is not really needed as the input source can always be changed with `Ctr-Space`.
+> **Note:** this makes the 🌐 key act like a normal _fn_ (function) key (e.g. for typing F1, F2, etc.). The 🌐 key functionality is not really needed as the input source can always be changed with `Ctrl-Space`.
 
 [↑ Top](#contents)
 
-## Disable startup sound
+## 6. Disable startup sound
 
 1. Go to _**System Settings → Sound**_
 1. Disable _**Play sound on startup**_
 
 [↑ Top](#contents)
 
-## Disable power chime
+## 7. Disable power chime
 
 1. Execute the following:
    ```bash
@@ -133,17 +136,17 @@ Enable dragging of windows with three fingers:
 
 [↑ Top](#contents)
 
-## Disable floating screenshot thumbnails
+## 8. Disable floating screenshot thumbnails
 
 1. Press `Cmd-Shift-5`
-1. Open the _**Options**_ dropdown list
+1. Open the _**Options**_ dropdown list in the menu bar at the bottom of the screen
 1. Disable _**Show Floating Thumbnail**_
 
 > **Note:** this saves all screenshots immediately to the file system and prevents the floating thumbnail animation in the lower right corner of the screen.
 
 [↑ Top](#contents)
 
-## Enable snap-to-grid for Desktop icons
+## 9. Make Desktop icons snap to the grid
 
 1. Right-click on the Desktop background
 1. Click on _**Show View Options**_
@@ -151,100 +154,110 @@ Enable dragging of windows with three fingers:
 
 [↑ Top](#contents)
 
-## Customise menu bar
+## 10. Customise menu bar
 
 1. Go to _**System Preferences → Control Centre**_
-1. Set _**Bluetooth**_ to _**Show in Menu Bar**_
-1. Set _**Focus**_ to _**Don't Show in Menu Bar**_
-1. Set _**Sound**_ to _**Always Show in Menu Bar**_
-1. Set _**Spotlight**_ to _**Don't Show in Menu Bar**_
+1. Change the below items to the following values:
+   | Item            | Value                         |
+   |:----------------|:------------------------------|
+   | _**Bluetooth**_ | _**Show in Menu Bar**_        |
+   | _**Focus**_     | _**Don't Show in Menu Bar**_  |
+   | _**Sound**_     | _**Always Show in Menu Bar**_ |
+   | _**Spotlight**_ | _**Don't Show in Menu Bar**_  |
 1. Under _**Battery**_, enable _**Show Percentage**_
-1. Rearrange the icons in the menu bar by holding the ⌘-key and dragging the icons directly in the menu bar
+1. Rearrange the icons in the menu bar by holding ⌘ and dragging the icons with the mouse
 
 [↑ Top](#contents)
 
-## Customise Dock
+## 11. Customise Dock
 
 1. Go to _**System Preferences → Desktop & Dock**_
 1. Enable _**Automatically hide and show the Dock**_
 1. Disable _**Show suggested and recent apps in Dock**_
-1. Select which items to include in the Dock by dragging unwanted items to the Bin and dragging wanted apps and directories into the dock
 
 [↑ Top](#contents)
 
-## Customise Spaces 
+## 12. Customise Spaces 
 
-Disable automatic rearrangement:
+Disable automatic rearrangement of Spaces:
 
 1. Go to _**System Preferences → Desktop & Dock**_
-1. In the _**Mission Control**_ section, disable _**Automatically rearrange Spaces based on most recent use**_
+1. Scroll down to the _**Mission Control**_ section
+1. Disable _**Automatically rearrange Spaces based on most recent use**_
 
 Create desired number of Spaces:
 
 1. Swipe up with four fingers to open Mission Control
 1. Move cursor to the top of the screen to reveal the Spaces strip
-1. Click on the + on the right side of the Spaces strip to add the desired number of spaces
+1. Click on the + on the right side of the Spaces strip to add additional Spaces
 
 [↑ Top](#contents)
 
-## Customise Finder
+## 13. Customise Finder
 
 Customise sidebar:
 
 1. Go to _**Finder → Settings → Sidebar**_
-1. In the _**Favourites**_ section, enable only the _**Applications**_, _**Desktop**_, and _**Home**_ items
-1. In the _**iCloud**_ section, disable all items
-1. In the _**Locations**_ section, enable only the _**Hard disks**_, _**External disks**_, and _**CDs, DVDs and iOS Devices**_ items
-1. In the _**Tags**_ section, disable all items
+1. Enable the following items and disable all other items:
+   | Item                            | Enabled |
+   |:--------------------------------|:-------:|
+   | _**Applications**_              | ✅      |
+   | _**Desktop**_                   | ✅      |
+   | _**\<Home>**_                   | ✅      |
+   | _**Hard disks**_                | ✅      |
+   | _**External disks**_            | ✅      |
+   | _**CDs, DVDs and iOS Devices**_ | ✅      |
 
-Disable hiding of filename extensions and warnings:
+Disable hiding of filename extensions and filename extension warnings:
 
 1. Go to _**Finder → Settings → Advanced**_
 1. Enable _**Show all filename extensions**_
 1. Disable _**Show warning before changing an extension**_
 
-Set default location:
+Set default directory:
 
 1. Go to _**Finder → Settings → General**_
-1. In the _**New Finder windows show:**_ dropdown list, select _**Desktop**_
+1. Open the _**New Finder windows show**_ dropdown list
+1. Select _**Desktop**_
 
 Restrict search to current folder:
 
 1. Go to _**Finder → Settings → Advanced**_
-1. In the _**When performing a search:**_ dropdown list, select _**Search the Current Folder**_
+1. Open the _**When performing a search**_ dropdown list
+1. Select _**Search the Current Folder**_
 
 Show Path Bar and Status Bar:
 
 1. Go to _**Finder → View**_
-1. Click on _**Show Path Bar**_
-1. Click on _**Show Status Bar**_
+1. Enable _**Show Path Bar**_
+1. Enable _**Show Status Bar**_
 
 [↑ Top](#contents)
 
-## Customise TextEdit
+## 14. Customise TextEdit
 
-Set default window style:
+Set default window style and behaviour:
 
 1. Go to _**TextEdit → Settings → New Document**_
 1. Set _**Format**_ to _**Plain text**_
 1. Set _**Width**_ to _**80**_
 1. Set _**Plain text font**_ to _**Menlo Regular 12**_
-1. Disable **all** the options under the _**Options**_ section
+1. Disable **all** the options in the _**Options**_ section
 
 Disable markup rendering:
 
 1. Go to _**TextEdit → Settings → Open and Save**_
-1. Enable _**Display HTML files as HTMl code instead of formatted text**_
+1. Enable _**Display HTML files as HTML code instead of formatted text**_
 1. Enable _**Display RTF files as RTF code instead of formatted text**_
 
-Disable automatic adding of file extensions:
+Disable automatic setting of filename extensions:
 
 1. Go to _**TextEdit → Settings → Open and Save**_
 1. Disable _**Add ".txt" extension to plain text files**_
 
 [↑ Top](#contents)
 
-## Enable keyboard brightness adjustment keys (optional)
+## 15. Enable keyboard brightness keys (optional)
 
 > **Note:** this step is only necessary if the built-in keyboard does **not** have dedicated keys for adjusting the keyboard brightness (usually bundled with the F5 and F6 keys).
 
@@ -284,24 +297,30 @@ Disable automatic adding of file extensions:
    ```
 1. Log out of macOS and log in again
 
-> **Background:** traditonally, Apple keyboards had two keys for decreasing and increasing the keyboard brightness bundled with the F5 and F6 key, respectively. However, in newer versions (since the introduction of Apple silicon chips), these keys have been exchanged for the _Dication_ and _Focus_ keys. The above script remaps the functions of these keys back to decreasing and increasing the keyboard brightness, as it used to be on older keyboards.
+### Explanations
 
-References: 
+Traditonally, Apple keyboards had two keys for decreasing and increasing the keyboard brightness. They were usually bundled with the F5 and F6 keys, respectively. However, in newer Mac versions (since the introduction of Apple silicon chips), these keys have been swapped out for _Dictation_ and _Focus_ keys.
+
+The above [launch agent](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html) script restores the original state of an Apple keyboard by making the _Dictation_ and _Focus_ keys act as keyboard brightness adjustment keys.
+
+> **Note:** the change might only take effect on the built-in keyboard, but not on an external Magic Keyboard.
+
+### References
 
 - https://www.idownloadblog.com/2022/03/25/bring-back-keyboard-brightness/
 - https://github.com/amarsyla/hidutil-key-remapping-generator/issues/33#issuecomment-1431296356
 
 [↑ Top](#contents)
 
-## Install custom keyboard layout
+## 16. Install custom keyboard layout
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-👉 [**weibeld-setup/install-keyboard-layout**](https://github.com/weibeld-setup/install-keyboard-layout)
+✅  [**weibeld-setup/install-keyboard-layout**](https://github.com/weibeld-setup/install-keyboard-layout)
 
 [↑ Top](#contents)
 
-## Install Xcode Command Line Tools
+## 17. Install Xcode Command Line Tools
 
 1. Execute the following to launch the installation dialog:
    ```bash
@@ -311,7 +330,7 @@ References:
 
 [↑ Top](#contents)
 
-## Install Homebrew
+## 18. Install Homebrew
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -321,15 +340,15 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 [↑ Top](#contents)
 
-## Install Homebrew formulas from Brewfile
+## 19. Install Homebrew formulas from Brewfile
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-👉 [**weibeld-setup/install-brewfile**](https://github.com/weibeld-setup/install-brewfile)
+✅ [**weibeld-setup/install-brewfile**](https://github.com/weibeld-setup/install-brewfile)
 
 [↑ Top](#contents)
 
-## Set Bash as the default shell
+## 20. Set Bash as the default shell
 
 1. Execute the following:
    ```bash
@@ -343,70 +362,70 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 [↑ Top](#contents)
 
-## Install dotfiles
+## 21. Install dotfiles
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-👉 [**weibeld-setup/install-dotfiles**](https://github.com/weibeld-setup/install-dotfiles)
+✅ [**weibeld-setup/install-dotfiles**](https://github.com/weibeld-setup/install-dotfiles)
 
 [↑ Top](#contents)
 
-## TODO: Install sudoers file
+## 22. TODO: Install sudoers file
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-👉 [**weibeld-setup/install-sudoers**](https://github.com/weibeld-setup/install-sudoers)
+✅ [**weibeld-setup/install-sudoers**](https://github.com/weibeld-setup/install-sudoers)
 
 > **TODO:** adapt for macOS.
 
 [↑ Top](#contents)
 
-## Apply iTerm2 settings
+## 23. Apply iTerm2 settings
 
 ![GitHub Repo: Settings](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-settings.svg)
 
-👉 [**weibeld-setup/settings-iterm2**](https://github.com/weibeld-setup/settings-iterm2)
+✅ [**weibeld-setup/settings-iterm2**](https://github.com/weibeld-setup/settings-iterm2)
 
 [↑ Top](#contents)
 
-## Apply settings of optional tools
+## 24. Apply settings of optional tools
 
 ### Android Studio
 
 ![GitHub Repo: Settings](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-settings.svg)
 
-👉 [**weibeld-setup/settings-android-studio**](https://github.com/weibeld-setup/settings-android-studio)
+✅ [**weibeld-setup/settings-android-studio**](https://github.com/weibeld-setup/settings-android-studio)
 
 ### Visual Studio Code
 
 ![GitHub Repo: Settings](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-settings.svg)
 
-👉 [**weibeld-setup/settings-vscode**](https://github.com/weibeld-setup/settings-vscode)
+✅ [**weibeld-setup/settings-vscode**](https://github.com/weibeld-setup/settings-vscode)
 
-## Set up Google Drive
-
-[↑ Top](#contents)
-
-## Set up Google Chrome
+## 25. Set up Google Chrome
 
 [↑ Top](#contents)
 
-## Set up Fluor
+## 26. Set up Google Drive
 
 [↑ Top](#contents)
 
-## Install eduroam
+## 27. Set up Fluor
+
+[↑ Top](#contents)
+
+## 28. Install eduroam
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-👉 [**weibeld-setup/install-eduroam**](https://github.com/weibeld-setup/install-eduroam)
+✅ [**weibeld-setup/install-eduroam**](https://github.com/weibeld-setup/install-eduroam)
 
 [↑ Top](#contents)
 
-## Install fonts
+## 29. Install fonts
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-👉 [**weibeld-setup/install-fonts**](https://github.com/weibeld-setup/install-fonts)
+✅ [**weibeld-setup/install-fonts**](https://github.com/weibeld-setup/install-fonts)
 
 [↑ Top](#contents)
