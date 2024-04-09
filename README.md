@@ -410,15 +410,59 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ✅ [**weibeld-setup/settings-vscode**](https://github.com/weibeld-setup/settings-vscode)
 
-## 26. Set up Google Chrome
+## 26. Configure Google Chrome
+
+Set Chrome as the default web browser:
+
+1. Go to _**System Settings → Desktop & Dock**_
+1. Scroll down to the _**Widgets**_ section
+1. Set _**Default web browser**_ to _**Google Chrome**_
+
+Set dowload directory:
+
+1. Go to _**Chrome → Settings → Downloads**_
+1. Set _**Location**_ to _**Desktop**_
 
 [↑ Top](#contents)
 
-## 27. Set up Google Drive
+## 27. Configure Google Drive
+
+1. Launch _**Google Drive**_
+1. Skip all the options in the setup dialog
+1. Click on the _**Google Drive**_ icon in the menu bar
+1. Click on the _**gear**_ (⚙) icon
+1. Go to _**Preferences → Google Drive**_
+1. Select _**Mirror files**_
+1. Click on _**Change folder location**_
+1. Create a new folder, such as **`~/Desktop/Google Drive`**
+1. Click on _**Confirm location**_
+1. Click on _**Save**_
+1. Wait for the sync of the files from Google Drive to the local folder to complete
+
+> **Note:** this creates a local directory that is mirrored with Google Drive. That means, all the files from Google Drive will be downloaded to this directory, and any files that are locally added to this directory will be uploaded to Google Drive.
 
 [↑ Top](#contents)
 
-## 28. Set up Fluor
+## 28. Configure Fluor
+
+Grant permissions:
+
+1. Launch _**Fluor**_
+1. Do not enable any notifications
+1. When prompted, grant the necessary permissions for Fluor in _**System Settings**_
+
+Enable start at login:
+
+1. Click on the _**Fluor**_ icon in the menu bar
+1. Enable _**Start Fluor at login**_
+
+Set trigger:
+
+1. Click on the _**Fluor**_ icon in the menu bar
+1. In the _**Trigger**_ section, enable the rightmost option:<br />
+   ![Fluor trigger](res/fluor-trigger_resized.png)
+
+> **Note:** this trigger option allows changing the Fluor mode (i.e. locking and unlocking the function keys) by simply pressing the _fn_ key.
 
 [↑ Top](#contents)
 
