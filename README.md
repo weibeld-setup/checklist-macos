@@ -476,7 +476,7 @@ Set trigger:
 
 1. Click on the _**Fluor**_ icon in the menu bar
 1. In the _**Trigger**_ section, enable the rightmost option:<br />
-   ![Fluor trigger](res/fluor-trigger_resized.png)
+   ![Fluor trigger](res/fluor-trigger.png)
 
 > **Note:** this trigger option allows changing the Fluor mode (i.e. locking and unlocking the function keys) by simply pressing the _fn_ key.
 
