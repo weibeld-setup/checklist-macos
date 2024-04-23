@@ -6,13 +6,16 @@ Checklist for setting a and personalising a new macOS installation.
 
 ## Contents
 
-<!-- 1. Vim plugin: https://github.com/mzlogin/vim-markdown-toc              -->
-<!-- 2. Remove:     "<DELETE-ME>"                                            -->
-<!-- 3. Set:        :let g:vmt_list_item_char = '- [ ]'                      -->
-<!--                :let g:vmt_max_level = 2                                 -->
-<!-- 4. Save:       ToC is automatically generated on saving of file         -->
+<!--
+  To generate the table of contents (ToC) with Vim:
+    1. Make sure https://github.com/mzlogin/vim-markdown-toc is installed
+    2. Execute: :let g:vmt_list_item_char = '- [ ]'
+    3. Remove '<DELETE>' from the below comment
+    4. Save the file (table of contents is automatically regenerated on save)
+    5. Re-add '<DELETE>' to prevent accidential regeneration of ToC 
+-->
 
-<!-- <DELETE-ME>vim-markdown-toc GFM -->
+<!-- <DELETE>vim-markdown-toc GFM -->
 
 - [ ] [1. Install updates](#1-install-updates)
 - [ ] [2. Disable iCloud Drive](#2-disable-icloud-drive)
@@ -324,7 +327,7 @@ The above [launch agent](https://developer.apple.com/library/archive/documentati
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-✅  [**weibeld-setup/install-keyboard-layout**](https://github.com/weibeld-setup/install-keyboard-layout)
+✅  See [**weibeld-setup/install-keyboard-layout**](https://github.com/weibeld-setup/install-keyboard-layout)
 
 [↑ Top](#contents)
 
@@ -352,7 +355,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-✅ [**weibeld-setup/install-brewfile**](https://github.com/weibeld-setup/install-brewfile)
+✅ See [**weibeld-setup/install-brewfile**](https://github.com/weibeld-setup/install-brewfile)
 
 [↑ Top](#contents)
 
@@ -374,7 +377,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ![GitHub Repo: Settings](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-settings.svg)
 
-✅ [**weibeld-setup/settings-iterm2**](https://github.com/weibeld-setup/settings-iterm2)
+✅ See [**weibeld-setup/settings-iterm2**](https://github.com/weibeld-setup/settings-iterm2)
 
 [↑ Top](#contents)
 
@@ -384,19 +387,19 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ![GitHub Repo: Settings](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-settings.svg)
 
-✅ [**weibeld-setup/settings-android-studio**](https://github.com/weibeld-setup/settings-android-studio)
+✅ See [**weibeld-setup/settings-android-studio**](https://github.com/weibeld-setup/settings-android-studio)
 
 ### Visual Studio Code
 
 ![GitHub Repo: Settings](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-settings.svg)
 
-✅ [**weibeld-setup/settings-vscode**](https://github.com/weibeld-setup/settings-vscode)
+✅ See [**weibeld-setup/settings-vscode**](https://github.com/weibeld-setup/settings-vscode)
 
 ## 24. Install dotfiles
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-✅ [**weibeld-setup/install-dotfiles**](https://github.com/weibeld-setup/install-dotfiles)
+✅ See [**weibeld-setup/install-dotfiles**](https://github.com/weibeld-setup/install-dotfiles)
 
 [↑ Top](#contents)
 
@@ -404,7 +407,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-✅ [**weibeld-setup/install-sudoers**](https://github.com/weibeld-setup/install-sudoers)
+✅ See [**weibeld-setup/install-sudoers**](https://github.com/weibeld-setup/install-sudoers)
 
 > **TODO:** adapt for macOS.
 
@@ -414,7 +417,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-✅ [**weibeld-setup/install-fonts**](https://github.com/weibeld-setup/install-fonts)
+✅ See [**weibeld-setup/install-fonts**](https://github.com/weibeld-setup/install-fonts)
 
 [↑ Top](#contents)
 
@@ -422,7 +425,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 ![GitHub Repo: Install](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/github-repo-install.svg)
 
-✅ [**weibeld-setup/install-eduroam**](https://github.com/weibeld-setup/install-eduroam)
+✅ See [**weibeld-setup/install-eduroam**](https://github.com/weibeld-setup/install-eduroam)
 
 [↑ Top](#contents)
 
