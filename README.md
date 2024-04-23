@@ -1,4 +1,4 @@
-# Checklist: macOS
+# Setup: macOS
 
 ![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/macos.svg)
 
