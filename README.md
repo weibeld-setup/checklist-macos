@@ -449,13 +449,12 @@ Set dowload directory:
 1. Launch _**Google Drive**_
 1. Skip all the options in the setup dialog
 1. Click on the _**Google Drive**_ icon in the menu bar
-1. Click on the _**gear**_ (⚙) icon
+1. Click on the _**gear icon**_
 1. Go to _**Preferences → Google Drive**_
 1. Select _**Mirror files**_
 1. Click on _**Change folder location**_
-1. Create a new folder, such as **`~/Desktop/Google Drive`**
-1. Click on _**Confirm location**_
-1. Click on _**Save**_
+1. In the file opening dialog, create a new folder, such as **`~/Desktop/Google Drive`**
+1. Click on _**Confirm location → Save**_
 1. Wait for the sync of the files from Google Drive to the local folder to complete
 
 > **Note:** this creates a local directory that is mirrored with Google Drive. That means, all the files from Google Drive will be downloaded to this directory, and any files that are locally added to this directory will be uploaded to Google Drive.
