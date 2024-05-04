@@ -42,7 +42,7 @@ Regenerate table of contents:
 - [ ] [14. Customise Spaces](#14-customise-spaces)
 - [ ] [15. Customise Finder](#15-customise-finder)
 - [ ] [16. Customise TextEdit](#16-customise-textedit)
-- [ ] [17. Enable keyboard brightness keys (optional)](#17-enable-keyboard-brightness-keys-optional)
+- [ ] [17. Restore keyboard brightness keys on the physical keyboard](#17-restore-keyboard-brightness-keys-on-the-physical-keyboard)
 - [ ] [18. Install custom keyboard layout](#18-install-custom-keyboard-layout)
 - [ ] [19. Install Xcode Command Line Tools](#19-install-xcode-command-line-tools)
 - [ ] [20. Install Homebrew](#20-install-homebrew)
@@ -289,9 +289,9 @@ Disable automatic setting of filename extensions:
 
 [↑ Top](#contents)
 
-## 17. Enable keyboard brightness keys (optional)
+## 17. Restore keyboard brightness keys on the physical keyboard
 
-> **Note:** this step is only necessary if the built-in keyboard does **not** have dedicated keys for adjusting the keyboard brightness (usually bundled with the F5 and F6 keys).
+> **Note:** this step is only necessary if the physical keyboard does **not** have keyboard brightness keys (usually bundled with the F5 and F6 keys), which is typically the case for newer (i.e. post Apple silicon)  models.
 
 1. Save the following as **`~/Library/LaunchAgents/com.local.KeyRemappings.plist`**:
    ```xml
@@ -329,15 +329,11 @@ Disable automatic setting of filename extensions:
    ```
 1. Log out of macOS and log in again
 
-### Explanations
+Traditonally, Apple keyboards had two keys for decreasing and increasing the keyboard brightness bundled with the F5 and F6 keys. However, newer models (roughly since the introduction of Apple silicon) have the _Dictation_ and _Focus_ keys at the place of these keyboard brightness keys.
 
-Traditonally, Apple keyboards had two keys for decreasing and increasing the keyboard brightness. They were usually bundled with the F5 and F6 keys, respectively. However, in newer Mac versions (since the introduction of Apple silicon chips), these keys have been swapped out for _Dictation_ and _Focus_ keys.
+The above [launch agent](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html) script reverts this change and makes the _Dictation_ and _Focus_ keys act as keyboard brightness keys.
 
-The above [launch agent](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html) script restores the original state of an Apple keyboard by making the _Dictation_ and _Focus_ keys act as keyboard brightness adjustment keys.
-
-> **Note:** the change might only take effect on the built-in keyboard, but not on an external Magic Keyboard.
-
-### References
+See also:
 
 - https://www.idownloadblog.com/2022/03/25/bring-back-keyboard-brightness/
 - https://github.com/amarsyla/hidutil-key-remapping-generator/issues/33#issuecomment-1431296356
