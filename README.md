@@ -14,7 +14,7 @@ Increment/decrement section numbers:
 Regenerate table of contents:
   1. Make sure the vim-markdown-toc Vim plugin [1] is installed
   2. Execute:
-       :let [g:vmt_list_item_char, g:vmt_max_level]= ['- [ ]', 2]
+       :let [g:vmt_list_item_char, g:vmt_max_level]= ['- [ ]', 3]
   3. Remove '<DELETE>' from '<DELETE>vim-markdown-toc GFM'
   4. Save the file 
   5. Re-add '<DELETE>' to above comment (prevent accidential regeneration)
@@ -50,6 +50,8 @@ Regenerate table of contents:
 - [ ] [22. Set Bash as the default shell](#22-set-bash-as-the-default-shell)
 - [ ] [23. Apply iTerm2 settings](#23-apply-iterm2-settings)
 - [ ] [24. Apply settings of optional tools](#24-apply-settings-of-optional-tools)
+  - [ ] [Android Studio](#android-studio)
+  - [ ] [Visual Studio Code](#visual-studio-code)
 - [ ] [25. Install dotfiles](#25-install-dotfiles)
 - [ ] [26. TODO: Install sudoers file](#26-todo-install-sudoers-file)
 - [ ] [27. Install fonts](#27-install-fonts)
